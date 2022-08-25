@@ -80,7 +80,7 @@
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
-   
+
 }
 
 /* ============== MEDIA QUERIES (SMALL DEVICES) ============= */
@@ -90,8 +90,8 @@
         margin: 0 auto 3rem;
     }
 
-    .about__card {
-        grid-template-columns: 1fr 1fr;
+    .about__cards {
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 

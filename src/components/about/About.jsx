@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/lotus.jpg'
 
 import {RiAwardFill} from 'react-icons/ri'
 import {FiUsers} from 'react-icons/fi'
@@ -33,13 +33,13 @@ const About = () => {
             </article>
             <article className='about__card'>
                 <VscFolderLibrary className='about__icon'/>
-                <h5>Projects</h5>
-                <small>80+ Complete</small>
+                <h5>Repositories</h5>
+                <small>80+ project</small>
             </article>
           </div>
 
           <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolor architecto molestias voluptas recusandae veniam repellendus? Natus distinctio labore vitae quas dolores? Exercitationem atque explicabo doloribus ex nesciunt vel sequi.
+              Being someone who is serious about work And diligence, currently committed to working with quality organizations to learn and gain experience to train yourself to continue to develop endlessly
 
             </p>
 

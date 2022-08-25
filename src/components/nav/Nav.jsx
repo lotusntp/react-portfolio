@@ -6,15 +6,16 @@ import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {BiMessageSquareDetail} from 'react-icons/bi'
 import {useState} from 'react'
+import {Link} from 'react-scroll'
+
 const Nav = () => {
-  const [activeNav,setActiveNav] = useState('#')
+  
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
-      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
-      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
-      <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a>
-      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
+      <Link to="home" spy={true} smooth={true} offset={-100} duration={500}><AiOutlineHome/></Link>
+      <Link to="about" spy={true} smooth={true} offset={-100} duration={500}><AiOutlineUser/></Link>
+      <Link to="experience" spy={true} smooth={true} offset={-100} duration={500}><BiBook/></Link>
+      <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}><BiMessageSquareDetail/></Link>
     </nav>
   )
 }
